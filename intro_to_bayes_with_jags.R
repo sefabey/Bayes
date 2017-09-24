@@ -137,7 +137,7 @@ tau <- 1/sigma.sq
 #Surgical Example 
 
 # no of ops on infants and number of deaths
-
+library(rjags)
 source(file="surgical-data.R") #not working
 ?read.jagsdata()
 # cardica surgeries is (n)
@@ -162,9 +162,55 @@ devAskNewPage(TRUE)
 plot(s)
 HPDinterval(s, prob = .9)
 
-install.packages("R2jags")
+# =====================================================================
+#r2jags package
+#install.packages("R2jags")
 library(R2jags)
 
 r2jags.out <- jags(data=surgical,parameters.to.save = "p",
                    model.file = "surgical.bug", n.chains = 2)
 r2jags.out
+plot(r2jags.out) # according to the graph, number 8 seems to be the worst hospital 
+#and the number q seems to be the best hospita
+
+# ====================================================================
+# runjags package
+
+install.packages('runjags')
+library(runjags)
+
+runjags.out <- run.jags(model = "surgical.bug", monitor = "p",
+                        data=surgical,n.chains = 2)
+runjags.out
+plot(runjags.out)
+
+
+# ====================================================================
+# jagsui package
+#install.packages("jagsUI")
+library(jagsUI)
+jagsui.out <- jagsUI::jags(data = surgical, parameters.to.save = "p",
+                           model.file = "surgical.bug", n.chains = 2,
+                           n.iter = 1000)
+jagsui.out #if you are starting out with MCMC, it might be useful to use this package because it will
+            # guide you through the output in detail
+
+plot(jagsui.out)
+
+
+# =============================================================
+
+# graphical models
+
+# in a graphical model, random variables are represented as nodes
+# and the relations between them by edges
+
+#two kind of graphs
+# directed acyclic graphs
+# conditional independence graphs
+
+# solutions to poor mixing
+# thinning and running for longer. 
+#taking every 20 iterations and running the simulation longer
+
+
