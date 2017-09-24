@@ -1,0 +1,7 @@
+# File location2.bug
+model {
+  for (i in 1:N) {
+      y[i] ~ dnorm(theta,1)
+  }
+  theta~dnorm(0,tau)
+}

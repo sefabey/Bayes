@@ -1,0 +1,40 @@
+[0m[0K]0;[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0m[0K
+$[0K[3G[?25h[?25l[1A[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0K
+[0m$[0K[3G[?25h[?25l[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0K[?25la[0K[9G[?25h[10G[?25l$ git stat[0K[?25hu[0Ks[0K[?25l
+fatal: Not a git repository (or any of the parent directories): .git[0K
+[0K[?25h[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git i[0K[?25hn[0Ki[0Kt[0K[?25l
+[0K[?25hInitialized empty Git repository in C:/Users/sefab/Documents/Study/Bayes/.git/[0K[?25l
+[0K[?25h[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/734D4038/sources/prop/87DC2A80.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/734D4038/sources/prop/INDEX.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/734D4038/sources/s-2A7E8D88/E272FE28.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/734D4038/sources/s-2A7E8D88/E272FE28-contents.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m @[0K[?25h@[0K[?25l$ git commit -m @[0K[?25h[?25l$ git commit -m[0K[17G[?25h[?25l$ git commit -m @[0K[?25h[?25l$ git commit -m[0K[17G[?25h[16G[?25l$ git commit -m"[0K[?25h"[0K[17G[16G[?25l$ git commit -m ""[0K[17G[?25h[18G[19G[18G[?25l$ git commit -m "s"[0K[19G[?25h[?25l$ git commit -m ""[0K[18G[?25h[?25l$ git commit -m "f"[0K[19G[?25h[?25l$ git commit -m "fi"[0K[20G[?25h[?25l$ git commit -m "fir"[0K[21G[?25h[?25l$ git commit -m "firs"[0K[22G[?25h[?25l$ git commit -m "first"[0K[23G[?25h[?25l$ git commit -m "first "[0K[?25h[24G[?25l$ git commit -m "first c"[0K[25G[?25h[?25l$ git commit -m "first co"[0K[26G[?25h[?25l$ git commit -m "first com"[0K[27G[?25h[?25l$ git commit -m "first comm"[0K[28G[?25h[?25l$ git commit -m "first commi"[0K[29G[?25h[?25l$ git commit -m "first commit"[0K[30G[?25h[?25l
+[0K[?25h[?25l
+*** Please tell me who you are.[0K
+[0K
+Run[0K
+[0K
+  git config --global user.email "you@example.com"[0K
+  git config --global user.name "Your Name"[0K
+[0K
+to set your account's default identity.[0K
+Omit --global to set the identity only in this repository.[0K
+[0K
+fatal: unable to auto-detect email address (got 'sefab@XPS-8920.(none)')[0K
+[0K[?25h[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
+$[0K[3G[?25h

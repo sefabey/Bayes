@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1506246256772.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3519413570",
+    "id" : "E272FE28",
+    "lastKnownWriteTime" : 1506271702,
+    "last_content_update" : 1506271702733,
+    "path" : "~/Study/Bayes/intro_to_bayes_with_jags.R",
+    "project_path" : "intro_to_bayes_with_jags.R",
+    "properties" : {
+        "cursorPosition" : "131,0",
+        "scrollLine" : "117",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
