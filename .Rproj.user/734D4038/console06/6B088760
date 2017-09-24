@@ -37,4 +37,25 @@ Omit --global to set the identity only in this repository.[0K
 fatal: unable to auto-detect email address (got 'sefab@XPS-8920.(none)')[0K
 [0K[?25h[?25l
 [0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/734D4038/console06/6B088760[0m[0K
+        [0;31mmodified:   .Rproj.user/734D4038/console06/INDEX001[0m[0K
+        [0;31mmodified:   .Rproj.user/734D4038/sources/prop/87DC2A80[0m[0K
+        [0;31mmodified:   intro_to_bayes_with_jags.R[0m[0K
+[0K
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K[?25h[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[?25l$ git ad[0K[?25h[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add .[0K[?25h[?25l
+warning: LF will be replaced by CRLF in .Rproj.user/734D4038/sources/prop/87DC2A80.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32msefab@XPS-8920 [0;35m [0;33m~/Study/Bayes[0;36m (master)[0m[0K
 $[0K[3G[?25h
