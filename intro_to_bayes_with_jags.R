@@ -134,3 +134,4 @@ sigma <- exp(log.sigma)
 sigma.sq <- power(signa,2)
 tau <- 1/sigma.sq
 
+
