@@ -136,8 +136,35 @@ tau <- 1/sigma.sq
 
 #Surgical Example 
 
-no of ops
+# no of ops on infants and number of deaths
 
+source(file="surgical-data.R") #not working
+?read.jagsdata()
+# cardica surgeries is (n)
+# number of deaths is (r)
 
+# Which hospital has the lowest death rate?
+# Which hospital has the highest death rate?
 
+m <- jags.model("surgical.bug", data = surgical) #beta binomial model 
+update(m,1000)#burn in 
+s <- coda.samples(m,"p", n.iter = 1000)
 
+class(s)
+head(s)
+tail(s)
+summary(s)
+
+summary(s)[[1]]#Moments
+plot(s)
+windows()
+devAskNewPage(TRUE)
+plot(s)
+HPDinterval(s, prob = .9)
+
+install.packages("R2jags")
+library(R2jags)
+
+r2jags.out <- jags(data=surgical,parameters.to.save = "p",
+                   model.file = "surgical.bug", n.chains = 2)
+r2jags.out

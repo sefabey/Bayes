@@ -1,0 +1,7 @@
+# File surgical.bug
+model{
+  for (i in 1:N){
+    r[i]~dbin(p[i],n[i])
+    p[i]~dbeta(1,1)
+    }
+}
